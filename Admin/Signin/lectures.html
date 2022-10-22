@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/lecture.css">
+    <title>Lecture</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div><a href="/Registration/index.html">Home</a></div>
+        <div><a href="/Login/index.html">Login</a></div>
+        <div><a href="/Signup/index.html">Signup</a></div>
+        <div>
+            <a href="./admin_login.html">Logout</a>
+          </div>
+    </div>
+    <div id="navbar">
+        <div>
+            <a href="admin.html">Students</a>
+        </div>
+        <div>
+            <a href="assignments.html">Assignments</a>
+        </div>
+        <div>
+            <a href="lectures.html">Lectures</a>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="attach">
+            <h2>Create Lecture</h2>
+            <form action="">
+
+                <input type="text" id="name" placeholder="Enter Heading">
+                <input type="text" id="des" placeholder="Enter Description">
+                <input type="text" id="link" placeholder="Link">
+                <button id="btn">Attach</button>
+            </form>
+        </div>
+        <div id="display">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Link</th>
+                        <th>Delete</th>
+
+                    </tr>
+                </thead>
+                <tbody id="lec"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+</html>
+
+<script src="./script/lecture.js"></script>

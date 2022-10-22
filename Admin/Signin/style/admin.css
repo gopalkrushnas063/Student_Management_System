@@ -1,0 +1,54 @@
+#navbar{
+    display:flex;
+    justify-content: space-evenly;
+    /* border:1px solid red; */
+    padding:20px 0px;
+    align-items: center;
+    background-color: #6E71CC;
+    margin-top: -40px;
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:"Source Sans Pro", sans-serif;
+}
+#studentTable{
+    margin:auto;
+    margin-top: 5%;
+
+}
+
+#nav{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: lightslategray;
+}
+#nav div{
+    width: 10%;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+#nav div:hover{
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+}
+th{
+    padding:10px 50px;
+    background-color: aquamarine;
+    color:#6E71CC;
+    font-family:"Source Sans Pro", sans-serif;
+}
+td{
+    text-align: center;
+    background-color: #6E71CC;
+    color:white;
+}
